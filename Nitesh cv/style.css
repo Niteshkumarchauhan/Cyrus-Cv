@@ -1,0 +1,85 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.menucontainer ul li {
+    list-style-type: none;
+}
+
+.menucontainer ul li a {
+    color: rgb(233, 137, 9);
+    text-decoration: none;
+    padding-left: 5px;
+}
+
+.menucontainer ul {
+    padding: 0;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: rgb(183, 35, 62);
+    font-size: 25px;
+}
+
+h3 {
+    margin-top: 0;
+    font-size: 18px;
+    font-weight: 60;
+}
+
+h4 {
+    color: rgb(214, 153, 72);
+    font-size: 18px;
+}
+
+h5 {
+    color: rgb(214, 153, 72);
+    font-size: 18px;
+}
+
+h2 {
+    margin-top: 0;
+    color: rgb(214, 153, 72);
+    font-size: 18px;
+}
+
+h6 {
+    color: rgb(214, 153, 72);
+    font-size: 18px;
+}
+
+.left {
+    padding: 40px 25px 40px 25px;
+    width: 60%;
+    background-color: antiquewhite;
+}
+
+.right {
+    padding: 40px 25px 40px 25px;
+    width: 40%;
+    background-color: rgb(248, 243, 243);
+}
+
+.container {
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+}
+
+h5,
+p {
+    margin: 0 0 0 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+  }
+  @media only screen and (max-width: 640px) {
+    body {
+      background-color: lightblue;
+    }
+  }
